@@ -1,0 +1,18 @@
+#!/usr/bin/bash
+
+echo "Enter year: "
+read x
+
+if[x%400 == 0]; then
+	echo "Is a leap year"
+	exit
+elif [$x%100 == 0]; then
+	echo "Not a leap year"
+	exit
+elif [$x%4==0]; then
+	echo "It's a leap year"
+	exit
+else
+	echo "Meow, I dont know"
+	exit
+fi
