@@ -1,0 +1,7 @@
+var = 2;
+meow = 3;
+if(var == meow)
+    print "ok meow ";
+else
+    print "fuck ml ";
+quit;
