@@ -2,8 +2,9 @@
 
 linear_search() {
     local arr=("$@")
-    local key=${arr[-1]}
-    unset arr[-1]
+    len=${#arr[@]}
+    local key=${arr[len-1]}
+    unset arr[len-1]
     
     for i in "${!arr[@]}"; do
         if [[ "${arr[$i]}" == "$key" ]]; then

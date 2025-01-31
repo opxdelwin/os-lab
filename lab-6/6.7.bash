@@ -8,6 +8,6 @@ length=${#array[@]}
 echo "Array in reverse order:"
 for (( i=$length-1; i>=0; i-- ))
 do
-    echo -n "${array[$i]} "
+    echo "${array[$i]} "
 done
 echo

@@ -13,6 +13,6 @@ done
 
 echo "Array after removing duplicates:"
 for element in "${unique_elements[@]}"; do
-    echo -n "$element "
+    echo "$element "
 done
 echo
